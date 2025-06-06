@@ -1,19 +1,19 @@
 [gd_scene load_steps=3 format=3 uid="uid://dxfly3y4d3vno"]
 
-[ext_resource type="Script" path="res://characters/player.gd" id="1_v84g1"]
+[ext_resource type="Script" path="res://charactersScripts/player.gd" id="1_v84g1"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_e1jb0"]
-radius = 3.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_plxhf"]
+size = Vector2(2, 2)
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_v84g1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(4, 3)
-shape = SubResource("CircleShape2D_e1jb0")
+position = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_plxhf")
 
 [node name="Polygon2D" type="Polygon2D" parent="CollisionShape2D"]
 position = Vector2(-22, -17)
-scale = Vector2(8.35064, 2.59515)
+scale = Vector2(8.35068, 2.59515)
 color = Color(0, 1, 1, 1)
-polygon = PackedVector2Array(2.39503, 7.32135, 2.39503, 5.78001, 2.99378, 6.55068)
+polygon = PackedVector2Array(2.51478, 6.93602, 2.51478, 6.16535, 2.75428, 6.55068)
