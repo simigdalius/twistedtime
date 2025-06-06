@@ -1,22 +1,15 @@
 extends CharacterBody2D
 
 
-const move = 2
-var i=0
-var z=100
+const move = 2.1
+var z=0
+func _ready() -> void:
+	Global.test=1
 
+func _physics_process(delta: float) -> void:
+	if Global.test != 1:
+		on_player_moved()
 
-func _on_area_2d_body_entered(body: Node2D) -> void:
-	print("mesa")
-	if body.is_in_group("player"):
-		print(Global.test)
-		for i in z:
-			position.x = 0
-			i=0
-			if Global.test == 0:
-				i=z
-		
-		if Global.test == 0:
-			print("timh")
-			position.x -= move
-			Global.test =1
+func on_player_moved():
+	position.x -= move
+	Global.test = 1

@@ -33,8 +33,80 @@ scale = Vector2(2.86111, 2.60465)
 color = Color(0.411774, 0.000117391, 0.411771, 1)
 polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
 
+[node name="Polygon2D5" type="Polygon2D" parent="map"]
+position = Vector2(12.4289, 1.8)
+scale = Vector2(2.86111, 2.60465)
+color = Color(0, 0.360784, 0.0392157, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D6" type="Polygon2D" parent="map"]
+position = Vector2(10.3244, 1.84)
+scale = Vector2(2.86111, 2.60465)
+color = Color(0.411774, 0.000117391, 0.411771, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D7" type="Polygon2D" parent="map"]
+position = Vector2(10.3444, 3.98)
+scale = Vector2(2.86111, 2.60465)
+color = Color(4.71681e-06, 0.359619, 0.0406807, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D8" type="Polygon2D" parent="map"]
+position = Vector2(12.4644, 3.94)
+scale = Vector2(2.86111, 2.60465)
+color = Color(0.411774, 0.000117391, 0.411771, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D9" type="Polygon2D" parent="map"]
+position = Vector2(16.6289, 1.78)
+scale = Vector2(2.86111, 2.60465)
+color = Color(0, 0.360784, 0.0392157, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D10" type="Polygon2D" parent="map"]
+position = Vector2(14.5244, 1.82)
+scale = Vector2(2.86111, 2.60465)
+color = Color(0.411774, 0.000117391, 0.411771, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D11" type="Polygon2D" parent="map"]
+position = Vector2(14.5444, 3.96)
+scale = Vector2(2.86111, 2.60465)
+color = Color(4.71681e-06, 0.359619, 0.0406807, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D12" type="Polygon2D" parent="map"]
+position = Vector2(16.6644, 3.92)
+scale = Vector2(2.86111, 2.60465)
+color = Color(0.411774, 0.000117391, 0.411771, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D13" type="Polygon2D" parent="map"]
+position = Vector2(20.8733, 1.72)
+scale = Vector2(2.86111, 2.60465)
+color = Color(0, 0.360784, 0.0392157, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D14" type="Polygon2D" parent="map"]
+position = Vector2(18.7689, 1.76)
+scale = Vector2(2.86111, 2.60465)
+color = Color(0.411774, 0.000117391, 0.411771, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D15" type="Polygon2D" parent="map"]
+position = Vector2(18.7889, 3.9)
+scale = Vector2(2.86111, 2.60465)
+color = Color(4.71681e-06, 0.359619, 0.0406807, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D16" type="Polygon2D" parent="map"]
+position = Vector2(20.9089, 3.86)
+scale = Vector2(2.86111, 2.60465)
+color = Color(0.411774, 0.000117391, 0.411771, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
 [node name="Player" parent="." instance=ExtResource("1_xv6u5")]
 position = Vector2(0.8, 2.08)
 
 [node name="simpleEnemy" parent="." instance=ExtResource("2_podsx")]
-position = Vector2(12.18, 1.7)
+position = Vector2(15.64, 4.12)
