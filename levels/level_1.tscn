@@ -37,4 +37,4 @@ polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.
 position = Vector2(0.8, 2.08)
 
 [node name="simpleEnemy" parent="." instance=ExtResource("2_podsx")]
-position = Vector2(6.74, 2.68)
+position = Vector2(12.18, 1.7)

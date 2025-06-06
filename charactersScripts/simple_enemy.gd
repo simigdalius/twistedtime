@@ -2,17 +2,19 @@ extends CharacterBody2D
 
 
 const move = 2
-var loop =true
+var i=0
+var z=100
 
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
 	print("mesa")
 	if body.is_in_group("player"):
 		print(Global.test)
-		while (loop):
+		for i in z:
 			position.x = 0
+			i=0
 			if Global.test == 0:
-				loop=false
+				i=z
 		
 		if Global.test == 0:
 			print("timh")
