@@ -10,10 +10,11 @@ script = ExtResource("1_v84g1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, 1)
+scale = Vector2(0.8, 0.8)
 shape = SubResource("RectangleShape2D_plxhf")
 
 [node name="Polygon2D" type="Polygon2D" parent="CollisionShape2D"]
-position = Vector2(-22, -17)
-scale = Vector2(8.35068, 2.59515)
+position = Vector2(-22, -16.9999)
+scale = Vector2(8.35068, 2.59513)
 color = Color(0, 1, 1, 1)
-polygon = PackedVector2Array(2.51478, 6.93602, 2.51478, 6.16535, 2.75428, 6.55068)
+polygon = PackedVector2Array(2.51478, 6.93602, 2.51478, 6.16535, 2.75427, 6.55068)

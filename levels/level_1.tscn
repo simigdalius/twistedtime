@@ -106,7 +106,7 @@ color = Color(0.411774, 0.000117391, 0.411771, 1)
 polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
 
 [node name="Player" parent="." instance=ExtResource("1_xv6u5")]
-position = Vector2(0.8, 2.08)
+position = Vector2(2.98, 4.22)
 
 [node name="simpleEnemy" parent="." instance=ExtResource("2_podsx")]
 position = Vector2(15.64, 4.12)

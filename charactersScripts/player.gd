@@ -7,8 +7,11 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed("d"):
 		velocity.y = 0
 		if Global.test ==1:
-			position.x += move
-			Global.test = 0
+			if Global.ntom ==0:
+				Global.test = 0
+			if Global.ntom ==1:
+				position.x += move
+				Global.test = 0
 			
 		
 	elif Input.is_action_just_pressed("a"):
