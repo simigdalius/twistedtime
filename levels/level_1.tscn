@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://b5clkf44ymiov"]
+[gd_scene load_steps=4 format=3 uid="uid://b5clkf44ymiov"]
 
+[ext_resource type="Script" path="res://levels/level_1.gd" id="1_dmuaj"]
 [ext_resource type="PackedScene" uid="uid://dxfly3y4d3vno" path="res://characters/player.tscn" id="1_xv6u5"]
 [ext_resource type="PackedScene" uid="uid://bmultd2oefyme" path="res://characters/simple_enemy.tscn" id="2_podsx"]
 
 [node name="level1" type="Node2D"]
 position = Vector2(247, 158)
 scale = Vector2(50, 50)
+script = ExtResource("1_dmuaj")
 
 [node name="map" type="Node2D" parent="."]
 
@@ -29,6 +31,30 @@ polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.
 
 [node name="Polygon2D4" type="Polygon2D" parent="map"]
 position = Vector2(8.22, 4)
+scale = Vector2(2.86111, 2.60465)
+color = Color(0.411774, 0.000117391, 0.411771, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D17" type="Polygon2D" parent="map"]
+position = Vector2(4.00888, 1.92)
+scale = Vector2(2.86111, 2.60465)
+color = Color(0, 0.360784, 0.0392157, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D18" type="Polygon2D" parent="map"]
+position = Vector2(1.90444, 1.96)
+scale = Vector2(2.86111, 2.60465)
+color = Color(0.411774, 0.000117391, 0.411771, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D19" type="Polygon2D" parent="map"]
+position = Vector2(1.92444, 4.1)
+scale = Vector2(2.86111, 2.60465)
+color = Color(4.71681e-06, 0.359619, 0.0406807, 1)
+polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
+
+[node name="Polygon2D20" type="Polygon2D" parent="map"]
+position = Vector2(4.04444, 4.06)
 scale = Vector2(2.86111, 2.60465)
 color = Color(0.411774, 0.000117391, 0.411771, 1)
 polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
@@ -106,7 +132,7 @@ color = Color(0.411774, 0.000117391, 0.411771, 1)
 polygon = PackedVector2Array(-1.85398, 0.05375, -1.85398, 0.86, -1.12, 0.86, -1.12, 0.0230358)
 
 [node name="Player" parent="." instance=ExtResource("1_xv6u5")]
-position = Vector2(2.98, 4.22)
+position = Vector2(-4.94, 4.24)
 
 [node name="simpleEnemy" parent="." instance=ExtResource("2_podsx")]
 position = Vector2(15.64, 4.12)
